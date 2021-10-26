@@ -6,6 +6,7 @@
 `docker build -t hamidullahmuslih/nodeapp:v1`
 
 3- check localhost:80
+
 4- There is also a docker-compose file. 
 `docker-compose up`
 
