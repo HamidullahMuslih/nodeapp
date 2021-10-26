@@ -1,0 +1,14 @@
+version: '3'
+
+
+networks:
+  batman:
+    driver: bridge
+services:
+  web_app:
+    # building this image from docker file in local dir
+    build: . 
+    ports: 
+      - "80:80"
+    networks:
+      - batman
